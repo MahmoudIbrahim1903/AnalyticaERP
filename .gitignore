@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AnalyticaERP/DesignTimeBuild
+/.vs/AnalyticaERP/FileContentIndex
+/.vs/ProjectEvaluation
+/.vs/AnalyticaERP/v17
+/AnalyticaERP.Application/obj/Debug/net6.0
+/AnalyticaERP.Application/obj
+/AnalyticaERP.Domain/obj
+/AnalyticaERP.Domain.Core/obj
+/AnalyticaERP.Infra.CrossCutting.Bus/obj
+/AnalyticaERP.Infra.CrossCutting.IOC/obj
+/AnalyticaERP.Infra.Data/obj
+/AnalyticaERP.Services.API/obj

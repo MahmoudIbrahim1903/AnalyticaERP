@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{959C2694-5603-4320-8EED-77BA1F750126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{9FF11C38-414A-4031-B2C3-C2F95FA7294A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{98AAB480-5CC9-48C0-B6DD-B4961112F902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{2CE78681-72C8-4927-91CE-D86FC5903224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Services.API", "AnalyticaERP.Services.API\AnalyticaERP.Services.API.csproj", "{71451A47-AABD-48AB-BC9C-633109C6F926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Application", "AnalyticaERP.Application\AnalyticaERP.Application.csproj", "{208464EC-8EDA-4ABA-877E-EC422A00CC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Domain", "AnalyticaERP.Domain\AnalyticaERP.Domain.csproj", "{937B4B84-03B0-4A22-8C73-111937BB57A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Infra.Data", "4.1-Infra.Data", "{69F9D3D7-4DCC-463D-BC67-40DE64881EF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-Infra.CrossCutting", "4.2-Infra.CrossCutting", "{06CBB634-E344-432C-A0FC-360F607A04CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Domain.Core", "AnalyticaERP.Domain.Core\AnalyticaERP.Domain.Core.csproj", "{9B120994-3042-4AA9-82A0-0804ABE4100C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Infra.Data", "AnalyticaERP.Infra.Data\AnalyticaERP.Infra.Data.csproj", "{0FD58EFA-4457-4346-AA5A-8596801C0792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Infra.CrossCutting.Bus", "AnalyticaERP.Infra.CrossCutting.Bus\AnalyticaERP.Infra.CrossCutting.Bus.csproj", "{BA7124E2-B2EC-421A-A57D-2822560A9569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticaERP.Infra.CrossCutting.IOC", "AnalyticaERP.Infra.CrossCutting.IOC\AnalyticaERP.Infra.CrossCutting.IOC.csproj", "{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71451A47-AABD-48AB-BC9C-633109C6F926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71451A47-AABD-48AB-BC9C-633109C6F926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71451A47-AABD-48AB-BC9C-633109C6F926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71451A47-AABD-48AB-BC9C-633109C6F926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208464EC-8EDA-4ABA-877E-EC422A00CC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208464EC-8EDA-4ABA-877E-EC422A00CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208464EC-8EDA-4ABA-877E-EC422A00CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208464EC-8EDA-4ABA-877E-EC422A00CC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937B4B84-03B0-4A22-8C73-111937BB57A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937B4B84-03B0-4A22-8C73-111937BB57A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937B4B84-03B0-4A22-8C73-111937BB57A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937B4B84-03B0-4A22-8C73-111937BB57A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B120994-3042-4AA9-82A0-0804ABE4100C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B120994-3042-4AA9-82A0-0804ABE4100C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B120994-3042-4AA9-82A0-0804ABE4100C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B120994-3042-4AA9-82A0-0804ABE4100C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD58EFA-4457-4346-AA5A-8596801C0792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD58EFA-4457-4346-AA5A-8596801C0792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD58EFA-4457-4346-AA5A-8596801C0792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD58EFA-4457-4346-AA5A-8596801C0792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7124E2-B2EC-421A-A57D-2822560A9569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7124E2-B2EC-421A-A57D-2822560A9569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7124E2-B2EC-421A-A57D-2822560A9569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7124E2-B2EC-421A-A57D-2822560A9569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71451A47-AABD-48AB-BC9C-633109C6F926} = {959C2694-5603-4320-8EED-77BA1F750126}
+		{208464EC-8EDA-4ABA-877E-EC422A00CC56} = {9FF11C38-414A-4031-B2C3-C2F95FA7294A}
+		{937B4B84-03B0-4A22-8C73-111937BB57A9} = {98AAB480-5CC9-48C0-B6DD-B4961112F902}
+		{69F9D3D7-4DCC-463D-BC67-40DE64881EF1} = {2CE78681-72C8-4927-91CE-D86FC5903224}
+		{06CBB634-E344-432C-A0FC-360F607A04CE} = {2CE78681-72C8-4927-91CE-D86FC5903224}
+		{9B120994-3042-4AA9-82A0-0804ABE4100C} = {98AAB480-5CC9-48C0-B6DD-B4961112F902}
+		{0FD58EFA-4457-4346-AA5A-8596801C0792} = {69F9D3D7-4DCC-463D-BC67-40DE64881EF1}
+		{BA7124E2-B2EC-421A-A57D-2822560A9569} = {06CBB634-E344-432C-A0FC-360F607A04CE}
+		{A099AF37-74DC-45E3-B0F7-D88BF2ECD96F} = {06CBB634-E344-432C-A0FC-360F607A04CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96C13958-1F36-44C6-83D3-C3177DB1A3D7}
+	EndGlobalSection
+EndGlobal
